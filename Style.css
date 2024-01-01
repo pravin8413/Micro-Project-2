@@ -1,0 +1,354 @@
+@import "https://fonts.googleapis.com/css";
+@import url("https://fonts.googleapis.com/css?family=Delius Unicase");
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+    padding: 0px;
+
+}
+
+.header {
+    width: 100%;
+    height: 8vh;
+    background-color: #6f6AF7;
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+}
+
+.logo {
+    width: 30%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo h2{
+    color: #fff;
+    font-family: 'Delius Unicase';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.navbar1 {
+    width: 40%;
+    height: 8vh;
+}
+
+.navbar1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    font-size: 1.25rem;
+    text-align: center;
+    /* font-weight: bold; */
+
+}
+
+.navbar1 ul li {
+    text-decoration: none;
+    cursor: pointer;
+}
+/* .navbar1 ul li a{
+    color: #fff;
+} */
+
+.navbar2 {
+
+    width: 30%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.navbar2 .search-bar{
+    border-radius: 20px;
+    background-color: #fff;
+    height: 1.7rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    border: 1px solid white;
+}
+.navbar2 .search-bar input{
+    border: transparent;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    padding: 10px;   
+
+}
+.navbar2 .search-bar i{
+    color: gray;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.navbar2 .bar{
+    color: white;
+    font-size: 30px;
+}
+
+/* section */
+
+.section-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.section {
+    margin-top: 5px;
+    width: 90%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.section1,
+.section2,
+.section3 {
+    width: 100%;
+}
+
+.section1 {
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.section1-left {
+    width: 456px;
+    height: 507px;
+    border-radius: 20px;
+
+}
+
+textarea {
+    height: 450px;
+    width: 700px;
+    padding: 25px;
+    background: #E5D8FF;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.social-media{
+    position: absolute;
+    top: 40%;
+    height: 100%;
+    right: 5px;
+}
+.social-media img{
+
+    height: 50px;
+    width: 50px;
+    margin-top: 3px;
+    
+}
+.social-meadia-icon{
+    position: sticky;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.whatsapp{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.section2 {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    height: 100px;
+    width: 250px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.16px;
+    line-height: 0.2;
+    padding-left: 35px;
+}
+
+#card1 {
+    background: #929DFF;
+}
+
+#card2 {
+    background: #734CF2;
+}
+
+#card3 {
+    background: #D288FF;
+}
+
+#card4 {
+    background: #000;
+}
+
+/* section3 */
+
+.section3 {
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: 350px;
+    background-color: #483EFF;
+    border-radius: 10px
+    ;
+}
+
+.section3-left {
+    height: 350px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-left p {
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    background-color: #6F7373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 178.7%;
+    letter-spacing: 1.4px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: #483EFF;
+}
+
+.section3-left p.info {
+    background: #BCE0F6;
+    color: #000;
+
+
+}
+
+.section3-right {
+    width: 800px;
+    height: 350px;
+    
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.section3-right p,
+.section3-right h2 {
+    color: #04285A;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    height: 8px;
+}
+
+.section3-right h2 {
+    font-size: 30px;
+    font-weight: 800;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.section3-right small {
+    color: #143565;
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.section3-right button{
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 600px;
+    margin-top: 0px;
+}
+.contact{
+    position: fixed;
+    height: fit-content;
+    width: fit-content;
+    right: 100px;
+    bottom: -25px;
+}
+.contact img{
+    height: 110px;
+    width: 110px;
+}
